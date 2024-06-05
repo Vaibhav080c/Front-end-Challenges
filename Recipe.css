@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-weight: 500;
+    font-family: 'Young Serif';
+}
+
+#main {
+    font-size: 2.4em;
+}
+
+.out {
+    font-size: 20px;
+    font-family: 'Outfit';
+}
+
+.container {
+    border-radius: 25px;
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+    width: 50vw;
+}
+
+#omelette {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.prep-box {
+    margin: 15px auto;
+    padding: 25px 35px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.list-item {
+    list-style-position: inside;
+}
+
+.divider {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #767676;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 2px 30px;
+    border-bottom: 1px solid #767676;
+}
+
+.darkpink {
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-box ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ing ul li::marker {
+    font-size: 14px;
+    color: hsl(332, 51%, 32%);
+}
+
+.inst ol li::marker {
+    font-weight: 500;
+    color: hsl(332, 51%, 32%);
+}
+
+.ing ul li {
+    list-style-type: square;
+
+}
+
+.darkbrown {
+    color: hsl(14, 45%, 36%);
+}
+
+.darkgrey {
+    color: hsl(30, 10%, 34%);
+}
+
+
+@media screen and (max-width:850px) {
+    body {
+        background-color: white;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #omelette {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .text {
+        padding: 12px;
+    }
+}
